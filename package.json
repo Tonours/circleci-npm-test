@@ -1,0 +1,22 @@
+{
+  "name": "circleci-npm-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tonours/circleci-npm-test.git"
+  },
+  "bin": {
+    "circle-ci-test": "./bin/circle-ci-test.js"
+  },
+  "author": "Anthony Guimard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tonours/circleci-npm-test/issues"
+  },
+  "homepage": "https://github.com/Tonours/circleci-npm-test#readme"
+}
