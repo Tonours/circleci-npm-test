@@ -40,8 +40,8 @@ jobs:
           name: Authenticate with registry
           command: echo "//registry.npmjs.org/:_authToken=$npm_TOKEN" > ~/repo/.npmrc
       - run:
-          name: Publish package
-          command: npm publish
+          name: Unpublish package
+          command: npm unpublish circleci-npm-test --force
 
 workflows:
   version: 2
