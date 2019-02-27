@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Tonours/circleci-npm-test/issues"
   },
-  "homepage": "https://github.com/Tonours/circleci-npm-test#readme"
+  "homepage": "https://github.com/Tonours/circleci-npm-test#readme",
+  "devDependencies": {
+    "ava": "^1.2.1"
+  }
 }
